@@ -1,0 +1,57 @@
+#navFont
+{
+font-style: normal;
+font-variant-caps: normal;
+font-weight: bold;
+font-stretch: normal;
+font-size: 20px;
+line-height: 1.4em;
+font-family: roboto-bold, roboto, sans-serif;
+font-size-adjust: none;
+font-kerning: auto;
+font-variant-alternates: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-variant-position: normal;
+font-language-override: normal;
+font-feature-settings: normal;
+
+
+}
+
+.nav-l
+{
+padding-right: 0.5rem;
+padding-left: 0.5rem;
+}
+#hov:hover
+{
+    color: #34a0fb;
+
+}
+#hov
+{
+   
+
+color: #525252;
+transition: color 0.4s ease 0s;
+}
+
+.logo
+{
+    margin: 10px 10px 10px 40px;
+    width: 150px;
+    height: 40px;
+}
+#red
+{
+    color:#DE1446;
+}
+.nav_fixed
+{
+    position: absolute;
+    top: 10;
+     /* Position the navbar at the bottom of the page */
+    width: 100%;
+}

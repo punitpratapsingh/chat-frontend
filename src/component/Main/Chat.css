@@ -1,0 +1,127 @@
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: blueviolet;
+ 
+}
+.Container
+{
+  display: flex;
+  
+}
+.userIcon {
+
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 5px;
+
+
+}
+.userIconDiv{
+  flex: 2;
+}
+.userName{
+  flex: 8;
+}
+.rowUser
+{
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  border-bottom: 1px solid black;
+  
+
+}
+.roomRow{
+  margin-top: -10;
+  margin-bottom: 20;
+}
+.noUser
+{
+  align-self: center;
+  margin-left: 10%;
+}
+.rowUser:hover{
+  cursor: grab;
+}
+.container {
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border-radius: 8px;
+  height: 60%;
+  width: 35%;
+  border:2px solid black;
+}
+.search_box
+{
+  flex: 1;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.userList{
+  margin-top: 20px;
+   flex: 9;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  overflow: scroll;
+  width: 100%;
+ 
+
+}
+.list-container {
+  display: flex;
+ 
+  flex-direction: column;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border-radius: 8px;
+  height: 60%;
+  width: 20%;
+  border:2px solid black;
+  float: left;
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .outerContainer {
+    height: 100%;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1200px) {
+  .container {
+    width: 60%;
+  }
+}
+
+.blockView
+{
+  display: block;
+ 
+  
+  
+
+}
+
+.hiddenView
+{
+  display: none;
+ 
+
+
+
+}
